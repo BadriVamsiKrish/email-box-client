@@ -1,0 +1,45 @@
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  padding:50px;
+  
+  gap: 10px;/* Ensure the container takes the full viewport height */
+}
+
+.centered-form {
+  max-width: 1000px; /* Adjust the maximum width as needed */
+  width: 600px;;
+  padding: 20px;
+  background-image: url('https://cdn.pixabay.com/photo/2017/05/31/23/44/email-marketing-2362038_1280.png');
+  border: 5px solid #120449;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+  
+}
+.item{
+  margin: 5px;
+  width:100%;
+  size:100px;
+  align-self: center;
+  font-size:20px;
+}
+.maindiv{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://cdn.pixabay.com/photo/2017/05/31/23/44/email-marketing-2362038_1280.png');
+}
+.itemlabel{
+  margin:10px;
+  font-size:20px;
+}
+h2{
+  text-align: center;
+  font-size:30px;
+}
